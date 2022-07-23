@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body,html{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.action-list li,
+.nav-list li{
+  margin-bottom: 1.5rem;
+  list-style-type: none;
+}
+.side-btn{
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: start;
+  width: 70%;
+}
+.side-btn:hover,
+.side-btn:active{
+  color: black;
+}
+
+p,.side-btn{
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 101.1%;
+letter-spacing: 0.05em;
+color: #9A9A9A;
+}
+.nav-icon{
+  margin-right: 15px;
+}
+.action-list{
+  margin-top: 10rem;
+}
+.p-btn{
+  color:black;
+}
+.brand{
+  margin-left: 40px;
+  color: black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.home{
+  display: flex;
+}
+.mainpage{
+  padding: 10px 45px;
+  width: 80%;
+  background: #FEFEFE;
+border: 1.5px solid #F0F0F0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+.search input{
+  outline: none;
+  padding: 6px;
+  color: #9A9A9A;
+  font-size: 1.2rem;
+  border: none;
+}
+.search-icon{
+  color: #757373;
+  font-size: 1.5rem;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.profile img{
+  width: 45px;
+  margin-left: 10px;
+height: 45px;
+border: 1px solid #E3E3E3;
+}
+.content{
+  margin-top: 2rem;
+}
+.content-header{
+  display: flex;
+  justify-content: space-between;
+}
+.content-header p{
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.filter_btn{
+  background-color: transparent;
+  height: 40px;
+  border: none;
+}
+.todo_container{
+  width: 318px;
+  height: 720px;
+  background: #F5F9F9;
+border-radius: 15px;
+}
