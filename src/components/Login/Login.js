@@ -15,14 +15,14 @@ function Login() {
             </div>
             <div className='login-form'>
                 <div className='login-header'>
-                    <Link to='/login' style={{ textDecoration: 'none' }}><button>Log In</button></Link>
+                    <Link to='/' style={{ textDecoration: 'none' }}><button>Log In</button></Link>
                     <Link to='/signup' style={{ textDecoration: 'none' }} ><button>Sign up</button></Link>
 
                 </div>
 
                 <div className='form-container'>
                     <Routes>
-                        <Route exact path="/login" element={<LoginForm />} />
+                        <Route exact path="/" element={<LoginForm />} />
                         <Route path="/signup" element={<SignupForm />} />
                     </Routes>
                 </div>

@@ -27,11 +27,22 @@ function TodoList({ containerTitle, items, addItem, onDrop, status }) {
         setIsFormOpen(false);
     }
 
+    const calculteItems = (items, status) => {
+        let totalItems = 0;
+        items.forEach((i) => {
+
+            if (i.status === status)
+                totalItems++;
+        })
+        return totalItems;
+    }
+    const totalItems = calculteItems(items, status);
+
     return (
         <div className='todo_container'>
             <div className='container_header'>
                 <p className='container_title'>{containerTitle}</p>
-                <p className='count'>4</p>
+                <p className='count'>{totalItems}</p>
 
             </div>
             <button className='add_btn' onClick={addBtnHandler}>+</button>

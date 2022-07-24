@@ -26,6 +26,10 @@ function LoginForm() {
         }
     }
 
+    const onChangeHandler = () => {
+        dispatch({ type: 'LOGIN' });
+    }
+
     return (
         <>
 
@@ -37,7 +41,7 @@ function LoginForm() {
                 {error && <p className='errorp'>{error}</p>}
                 <button type='submit'>Login</button>
                 <div className='checkbox'>
-                    <input type='checkbox' />
+                    <input type='checkbox' onChange={onChangeHandler} />
                     <span>Remember Me</span>
                 </div>
 
