@@ -4,8 +4,17 @@ import homeLogo from '../../assets/home.png';
 import statLogo from '../../assets/stats.png';
 import calendarLogo from '../../assets/calendar.png';
 import projectLogo from '../../assets/project.png';
+import { AuthContext } from '../../store/contex';
+import { useContext } from 'react';
 
 function Sidebar() {
+
+    const globalState = useContext(AuthContext);
+    const { state, dispatch } = globalState;
+    const logOutHandler = () => {
+        dispatch({ type: 'LOGOUT' });
+    }
+
     return (
         <div className='sidebar'>
             <p className='brand'>.taskez</p>
@@ -20,7 +29,7 @@ function Sidebar() {
             </ul>
             <ul className='action-list'>
                 <li><button className='side-btn'> <span className='nav-icon'><AiOutlineSetting /></span>Setting</button></li>
-                <li><button className='side-btn'> <span className='nav-icon'><AiOutlineLogout /></span> Log Out</button></li>
+                <li><button className='side-btn' onClick={logOutHandler}> <span className='nav-icon'><AiOutlineLogout /></span> Log Out</button></li>
             </ul>
 
 

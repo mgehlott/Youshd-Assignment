@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactModal from 'react-modal';
+import user from '../../data/users';
+import photo from '../../assets/Ellipse1.png';
 
-ReactModal.setAppElement("#App");;
+ReactModal.setAppElement("#root");;
 
 function Window({ item, show, onClose }) {
     console.log('window');
@@ -11,14 +13,21 @@ function Window({ item, show, onClose }) {
             onRequestClose={onClose}
             className={"Modal"}
             overlayClassName={"Overlay"}>
-            <div className='close-modal-btn'>
-                <h1 style={{ flex: "1 90%" }}>{item.title}</h1>
+            <div className='modal-header'>
+                <h3>Project Members</h3>
                 <button className='close-btn' onClick={onClose}>X</button>
-                <div>
-                    <h2>Descriptioon</h2>
-                    <p>lkdksfsdkf</p>
-                </div>
             </div>
+            <ul>
+                {user.map(u => {
+                    return <li className='modal-item'>
+                        <img src={u.path} alt={u.name} />
+                        <div>
+                            <p className='user-name'>{u.name}</p>
+                            <p className='user-email'>{u.email}</p>
+                        </div>
+                    </li>
+                })}
+            </ul>
 
         </ReactModal>
     )
