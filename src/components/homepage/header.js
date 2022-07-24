@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineProfile, AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineSearch } from 'react-icons/ai'
 import profile from '../../assets/profile.png';
 
 function Header() {
