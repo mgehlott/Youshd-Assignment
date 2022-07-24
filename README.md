@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+I have implemented most of funtionality of assignment;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Sign Up Screen
+<img src="screenshot/Screenshot (168).png" alt="Alt text" title="Optional title">
 
-## Available Scripts
+2. Sign Up with user details
 
-In the project directory, you can run:
+<img src="screenshot/Screenshot (169).png" alt="Alt text" title="Optional title">
 
-### `npm start`
+3. Login Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="screenshot/Screenshot (167).png" alt="Alt text" title="Optional title">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4.Login with wrong password and email
 
-### `npm test`
+<img src="screenshot/Screenshot (170).png" alt="Alt text" title="Optional title">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5.Login with valid email and password.
 
-### `npm run build`
+<img src="screenshot/Screenshot (171).png" alt="Alt text" title="Optional title">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Project or Todo page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="screenshot/Screenshot (172).png" alt="Alt text" title="Optional title">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. Form for adding to do.
 
-### `npm run eject`
+<img src="screenshot/Screenshot (173).png" alt="Alt text" title="Optional title">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. Todo added
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="screenshot/Screenshot (174).png" alt="Alt text" title="Optional title">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+9. more todo added and there count changed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="screenshot/Screenshot (175).png" alt="Alt text" title="Optional title">
 
-## Learn More
+10. dragging todo . i have add color so when it dragging it show orange background color.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="screenshot/Screenshot (176).png" alt="Alt text" title="Optional title">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+11. todo dropped in todo list from progress list
 
-### Code Splitting
+<img src="screenshot/Screenshot (178).png" alt="Alt text" title="Optional title">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+12 Again dragging highlited todo to completed todo list.
 
-### Analyzing the Bundle Size
+<img src="screenshot/Screenshot (179).png" alt="Alt text" title="Optional title">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+13  Dropped at completed todo list.
 
-### Making a Progressive Web App
+<img src="screenshot/Screenshot (180).png" alt="Alt text" title="Optional title">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+14 Open modal on clicking todo.
 
-### Advanced Configuration
+<img src="screenshot/Screenshot (181).png" alt="Alt text" title="Optional title">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+15 Clicking on Logout button on bottom.
 
-### Deployment
+<img src="screenshot/Screenshot (183).png" alt="Alt text" title="Optional title">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+16. Logged out 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="screenshot/Screenshot (184).png" alt="Alt text" title="Optional title">
